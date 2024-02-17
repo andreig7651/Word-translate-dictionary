@@ -1,0 +1,1341 @@
+2023.03.10 22:15:22 INFO  Started: Metals version 0.11.11 in workspace 'D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/andre/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.10 22:15:23 INFO  time: initialize in 1.33s
+2023.03.10 22:15:26 WARN  Build server is not auto-connectable.
+2023.03.10 22:15:26 WARN  no build tool detected in workspace 'D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.10 22:15:26 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Dict_entry.java
+2023.03.10 22:15:26 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java
+2023.03.10 22:15:27 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/functions.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: package com.google.gson does not exist
+import com.google.gson.JsonArray;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:2: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:11: error: cannot find symbol
+    Map<String, ArrayList<dict_entry>> tree_map = new TreeMap<String, ArrayList<dict_entry>>();
+                          ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:13: error: cannot find symbol
+    public Map<String, ArrayList<dict_entry>> getTree_map() {
+                                 ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:17: error: cannot find symbol
+    public void setTree_map(Map<String, ArrayList<dict_entry>> tree_map) {
+                                                  ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:22: error: cannot find symbol
+    boolean addWord(Word word, String language){
+                    ^
+  symbol:   class Word
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:59: error: cannot find symbol
+    boolean addDefinitionForWord(String word, String language, Definition definition){
+                                                               ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:229: error: cannot find symbol
+    ArrayList<Definition> getDefinitionsForWord(String word, String language){
+              ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:11: error: cannot find symbol
+    Map<String, ArrayList<dict_entry>> tree_map = new TreeMap<String, ArrayList<dict_entry>>();
+                                                                                ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:23: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet())
+                                        ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:26: error: cannot find symbol
+                for(dict_entry entry:intrare.getValue())
+                    ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:29: error: cannot find symbol
+                dict_entry new_entry=new dict_entry();
+                ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:29: error: cannot find symbol
+                dict_entry new_entry=new dict_entry();
+                                         ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:41: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet())
+                                        ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:45: error: cannot find symbol
+                for(dict_entry entry:intrare.getValue()) {
+                    ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:60: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet()) {
+                                        ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:63: error: cannot find symbol
+                for (dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:65: error: cannot find symbol
+                        for (Definition new_def:entry.mydefinition)
+                             ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:95: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet()) {
+                                        ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:98: error: cannot find symbol
+                for (dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:101: error: cannot find symbol
+                        for (Definition def:entry.mydefinition)
+                             ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:119: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet()) {
+                                        ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:121: error: cannot find symbol
+                for (dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:144: error: cannot find symbol
+                        for (Map.Entry<String, ArrayList<dict_entry>> intrare1 : tree_map.entrySet())
+                                                         ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:146: error: cannot find symbol
+                                for (dict_entry entry1 : intrare1.getValue()) {
+                                     ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:189: error: cannot find symbol
+                for (Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet()) {
+                                                 ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:191: error: cannot find symbol
+                        for (dict_entry entry : intrare.getValue()) {
+                             ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:194: error: cannot find symbol
+                                for (Map.Entry<String, ArrayList<dict_entry>> intrare1 : tree_map.entrySet()) {
+                                                                 ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:196: error: cannot find symbol
+                                        for (dict_entry entry1 : intrare1.getValue()) {
+                                             ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:199: error: cannot find symbol
+                                                    for (Definition def : entry1.mydefinition)
+                                                         ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:206: error: cannot find symbol
+                                                    for (Definition def : entry1.mydefinition)
+                                                         ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:230: error: cannot find symbol
+        ArrayList<Definition> definitions=new ArrayList<Definition>();
+                  ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:230: error: cannot find symbol
+        ArrayList<Definition> definitions=new ArrayList<Definition>();
+                                                        ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:232: error: cannot find symbol
+        for (Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet()) {
+                                         ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:234: error: cannot find symbol
+                for (dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:236: error: cannot find symbol
+                        for(Definition def:entry.mydefinition){
+                            ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:241: error: cannot find symbol
+                            for(Definition def:entry.mydefinition){
+                                ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:259: error: cannot find symbol
+        JsonArray list=new JsonArray();
+        ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:259: error: cannot find symbol
+        JsonArray list=new JsonArray();
+                           ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:260: error: cannot find symbol
+        for (Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet()) {
+                                         ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:262: error: cannot find symbol
+                for (dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:267: error: cannot find symbol
+                    for (dict_entry entry : intrare.getValue())
+                         ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:269: error: cannot find symbol
+                            JsonObject obj = new JsonObject();
+                            ^
+  symbol:   class JsonObject
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:269: error: cannot find symbol
+                            JsonObject obj = new JsonObject();
+                                                 ^
+  symbol:   class JsonObject
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:273: error: cannot find symbol
+                            JsonArray singular = new JsonArray();
+                            ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:273: error: cannot find symbol
+                            JsonArray singular = new JsonArray();
+                                                     ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:279: error: cannot find symbol
+                            JsonArray plural = new JsonArray();
+                            ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:279: error: cannot find symbol
+                            JsonArray plural = new JsonArray();
+                                                   ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:284: error: cannot find symbol
+                            JsonArray definitions = new JsonArray();
+                            ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:284: error: cannot find symbol
+                            JsonArray definitions = new JsonArray();
+                                                        ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:286: error: cannot find symbol
+                            for (Definition def: entry.mydefinition){
+                                 ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:291: error: cannot find symbol
+                                for (Definition def: entry.mydefinition)
+                                     ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:294: error: cannot find symbol
+                                            JsonObject obj1=new JsonObject();
+                                            ^
+  symbol:   class JsonObject
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:294: error: cannot find symbol
+                                            JsonObject obj1=new JsonObject();
+                                                                ^
+  symbol:   class JsonObject
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:298: error: cannot find symbol
+                                            JsonArray text=new JsonArray();
+                                            ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:298: error: cannot find symbol
+                                            JsonArray text=new JsonArray();
+                                                               ^
+  symbol:   class JsonArray
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:323: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<dict_entry>> intrare : tree_map.entrySet())
+                                        ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:325: error: cannot find symbol
+            for(dict_entry entry:intrare.getValue()) {
+                ^
+  symbol:   class dict_entry
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:338: error: cannot find symbol
+                for(Definition def:entry.mydefinition) {
+                    ^
+  symbol:   class Definition
+  location: class functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: semanticdb-javac: unknown flag 'pe'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java:1: error: semanticdb-javac: unknown flag '2\src'
+import com.google.gson.JsonArray;
+^
+65 errors
+2023.03.10 22:15:28 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/Dict_entry.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Dict_entry.java:7: error: invalid method declaration; return type required
+    public dict_entry() {
+           ^
+1 error
+2023.03.10 22:15:28 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\functions.java
+2023.03.10 22:15:36 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java
+2023.03.10 22:15:37 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/tema2.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: package com.google.gson does not exist
+import com.google.gson.JsonArray;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:2: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:3: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:4: error: package com.google.gson does not exist
+import com.google.gson.JsonParser;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:16: error: cannot find symbol
+        functions myfunc=new functions();
+        ^
+  symbol:   class functions
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:16: error: cannot find symbol
+        functions myfunc=new functions();
+                             ^
+  symbol:   class functions
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:17: error: cannot find symbol
+        Map<String, ArrayList<dict_entry>> tree_map = myfunc.getTree_map();
+                              ^
+  symbol:   class dict_entry
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:27: error: cannot find symbol
+                ArrayList<dict_entry> list=new ArrayList<dict_entry>();
+                          ^
+  symbol:   class dict_entry
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:27: error: cannot find symbol
+                ArrayList<dict_entry> list=new ArrayList<dict_entry>();
+                                                         ^
+  symbol:   class dict_entry
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:36: error: cannot find symbol
+                    JsonElement fileElement = JsonParser.parseReader(new FileReader(f));
+                    ^
+  symbol:   class JsonElement
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:36: error: cannot find symbol
+                    JsonElement fileElement = JsonParser.parseReader(new FileReader(f));
+                                              ^
+  symbol:   variable JsonParser
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:37: error: cannot find symbol
+                    JsonArray wordArray = fileElement.getAsJsonArray();
+                    ^
+  symbol:   class JsonArray
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:39: error: cannot find symbol
+                    for (JsonElement myword : wordArray) {
+                         ^
+  symbol:   class JsonElement
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:40: error: cannot find symbol
+                        dict_entry myentry=new dict_entry();
+                        ^
+  symbol:   class dict_entry
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:40: error: cannot find symbol
+                        dict_entry myentry=new dict_entry();
+                                               ^
+  symbol:   class dict_entry
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:41: error: cannot find symbol
+                        JsonObject wordJsonObject = myword.getAsJsonObject();
+                        ^
+  symbol:   class JsonObject
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:52: error: cannot find symbol
+                        JsonArray singularArray = wordJsonObject.get("singular").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:53: error: cannot find symbol
+                        for (JsonElement singularword : singularArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:59: error: cannot find symbol
+                        JsonArray pluralArray = wordJsonObject.get("plural").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:60: error: cannot find symbol
+                        for (JsonElement pluralword : pluralArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:66: error: cannot find symbol
+                        JsonArray definitionArray = wordJsonObject.get("definitions").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:67: error: cannot find symbol
+                        for (JsonElement definition : definitionArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:69: error: cannot find symbol
+                            JsonObject definitionJsonObject = definition.getAsJsonObject();
+                            ^
+  symbol:   class JsonObject
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:74: error: cannot find symbol
+                            Definition def=new Definition();
+                            ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:74: error: cannot find symbol
+                            Definition def=new Definition();
+                                               ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:78: error: cannot find symbol
+                                JsonArray textArray = definitionJsonObject.get("text").getAsJsonArray();
+                                ^
+  symbol:   class JsonArray
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:79: error: cannot find symbol
+                                for (JsonElement myphrase : textArray) {
+                                     ^
+  symbol:   class JsonElement
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:98: error: cannot find symbol
+    Word new_word=new Word();
+    ^
+  symbol:   class Word
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:98: error: cannot find symbol
+    Word new_word=new Word();
+                      ^
+  symbol:   class Word
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:106: error: cannot find symbol
+    Word new_word1=new Word();
+    ^
+  symbol:   class Word
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:106: error: cannot find symbol
+    Word new_word1=new Word();
+                       ^
+  symbol:   class Word
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:122: error: cannot find symbol
+    Definition new_definition=new Definition();
+    ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:122: error: cannot find symbol
+    Definition new_definition=new Definition();
+                                  ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:132: error: cannot find symbol
+    Definition new_definition1=new Definition();
+    ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:132: error: cannot find symbol
+    Definition new_definition1=new Definition();
+                                   ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:142: error: cannot find symbol
+    Definition new_definition2=new Definition();
+    ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:142: error: cannot find symbol
+    Definition new_definition2=new Definition();
+                                   ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:172: error: cannot find symbol
+    ArrayList<Definition>mydefinitions=myfunc.getDefinitionsForWord("câine","ro");
+              ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:173: error: cannot find symbol
+    for(Definition def:mydefinitions)
+        ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:176: error: cannot find symbol
+    ArrayList<Definition>mydefinitions1=myfunc.getDefinitionsForWord("chat","fr");
+              ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:177: error: cannot find symbol
+    for(Definition def:mydefinitions1)
+        ^
+  symbol:   class Definition
+  location: class tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: semanticdb-javac: unknown flag 'pe'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\tema2.java:1: error: semanticdb-javac: unknown flag '2\src'
+import com.google.gson.JsonArray;
+^
+47 errors
+2023.03.10 22:16:08 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java
+2023.03.10 22:16:10 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/Functions.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: package com.google.gson does not exist
+import com.google.gson.JsonArray;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:2: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:11: error: cannot find symbol
+    Map<String, ArrayList<Dict_entry>> tree_map = new TreeMap<String, ArrayList<Dict_entry>>();
+                          ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:13: error: cannot find symbol
+    public Map<String, ArrayList<Dict_entry>> getTree_map() {
+                                 ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:17: error: cannot find symbol
+    public void setTree_map(Map<String, ArrayList<Dict_entry>> tree_map) {
+                                                  ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:22: error: cannot find symbol
+    boolean addWord(Word word, String language){
+                    ^
+  symbol:   class Word
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:59: error: cannot find symbol
+    boolean addDefinitionForWord(String word, String language, Definition definition){
+                                                               ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:229: error: cannot find symbol
+    ArrayList<Definition> getDefinitionsForWord(String word, String language){
+              ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:11: error: cannot find symbol
+    Map<String, ArrayList<Dict_entry>> tree_map = new TreeMap<String, ArrayList<Dict_entry>>();
+                                                                                ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:23: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet())
+                                        ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:26: error: cannot find symbol
+                for(Dict_entry entry:intrare.getValue())
+                    ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:29: error: cannot find symbol
+                Dict_entry new_entry=new Dict_entry();
+                ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:29: error: cannot find symbol
+                Dict_entry new_entry=new Dict_entry();
+                                         ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:41: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet())
+                                        ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:45: error: cannot find symbol
+                for(Dict_entry entry:intrare.getValue()) {
+                    ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:60: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet()) {
+                                        ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:63: error: cannot find symbol
+                for (Dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:65: error: cannot find symbol
+                        for (Definition new_def:entry.mydefinition)
+                             ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:95: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet()) {
+                                        ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:98: error: cannot find symbol
+                for (Dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:101: error: cannot find symbol
+                        for (Definition def:entry.mydefinition)
+                             ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:119: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet()) {
+                                        ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:121: error: cannot find symbol
+                for (Dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:144: error: cannot find symbol
+                        for (Map.Entry<String, ArrayList<Dict_entry>> intrare1 : tree_map.entrySet())
+                                                         ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:146: error: cannot find symbol
+                                for (Dict_entry entry1 : intrare1.getValue()) {
+                                     ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:189: error: cannot find symbol
+                for (Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet()) {
+                                                 ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:191: error: cannot find symbol
+                        for (Dict_entry entry : intrare.getValue()) {
+                             ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:194: error: cannot find symbol
+                                for (Map.Entry<String, ArrayList<Dict_entry>> intrare1 : tree_map.entrySet()) {
+                                                                 ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:196: error: cannot find symbol
+                                        for (Dict_entry entry1 : intrare1.getValue()) {
+                                             ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:199: error: cannot find symbol
+                                                    for (Definition def : entry1.mydefinition)
+                                                         ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:206: error: cannot find symbol
+                                                    for (Definition def : entry1.mydefinition)
+                                                         ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:230: error: cannot find symbol
+        ArrayList<Definition> definitions=new ArrayList<Definition>();
+                  ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:230: error: cannot find symbol
+        ArrayList<Definition> definitions=new ArrayList<Definition>();
+                                                        ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:232: error: cannot find symbol
+        for (Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet()) {
+                                         ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:234: error: cannot find symbol
+                for (Dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:236: error: cannot find symbol
+                        for(Definition def:entry.mydefinition){
+                            ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:241: error: cannot find symbol
+                            for(Definition def:entry.mydefinition){
+                                ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:259: error: cannot find symbol
+        JsonArray list=new JsonArray();
+        ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:259: error: cannot find symbol
+        JsonArray list=new JsonArray();
+                           ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:260: error: cannot find symbol
+        for (Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet()) {
+                                         ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:262: error: cannot find symbol
+                for (Dict_entry entry : intrare.getValue()) {
+                     ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:267: error: cannot find symbol
+                    for (Dict_entry entry : intrare.getValue())
+                         ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:269: error: cannot find symbol
+                            JsonObject obj = new JsonObject();
+                            ^
+  symbol:   class JsonObject
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:269: error: cannot find symbol
+                            JsonObject obj = new JsonObject();
+                                                 ^
+  symbol:   class JsonObject
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:273: error: cannot find symbol
+                            JsonArray singular = new JsonArray();
+                            ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:273: error: cannot find symbol
+                            JsonArray singular = new JsonArray();
+                                                     ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:279: error: cannot find symbol
+                            JsonArray plural = new JsonArray();
+                            ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:279: error: cannot find symbol
+                            JsonArray plural = new JsonArray();
+                                                   ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:284: error: cannot find symbol
+                            JsonArray definitions = new JsonArray();
+                            ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:284: error: cannot find symbol
+                            JsonArray definitions = new JsonArray();
+                                                        ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:286: error: cannot find symbol
+                            for (Definition def: entry.mydefinition){
+                                 ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:291: error: cannot find symbol
+                                for (Definition def: entry.mydefinition)
+                                     ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:294: error: cannot find symbol
+                                            JsonObject obj1=new JsonObject();
+                                            ^
+  symbol:   class JsonObject
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:294: error: cannot find symbol
+                                            JsonObject obj1=new JsonObject();
+                                                                ^
+  symbol:   class JsonObject
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:298: error: cannot find symbol
+                                            JsonArray text=new JsonArray();
+                                            ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:298: error: cannot find symbol
+                                            JsonArray text=new JsonArray();
+                                                               ^
+  symbol:   class JsonArray
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:323: error: cannot find symbol
+        for(Map.Entry<String, ArrayList<Dict_entry>> intrare : tree_map.entrySet())
+                                        ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:325: error: cannot find symbol
+            for(Dict_entry entry:intrare.getValue()) {
+                ^
+  symbol:   class Dict_entry
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:338: error: cannot find symbol
+                for(Definition def:entry.mydefinition) {
+                    ^
+  symbol:   class Definition
+  location: class Functions
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: semanticdb-javac: unknown flag 'pe'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Functions.java:1: error: semanticdb-javac: unknown flag '2\src'
+import com.google.gson.JsonArray;
+^
+65 errors
+2023.03.10 22:16:19 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java
+2023.03.10 22:16:20 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/Tema2.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: package com.google.gson does not exist
+import com.google.gson.JsonArray;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:2: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:3: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:4: error: package com.google.gson does not exist
+import com.google.gson.JsonParser;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:16: error: cannot find symbol
+        Functions myfunc=new Functions();
+        ^
+  symbol:   class Functions
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:16: error: cannot find symbol
+        Functions myfunc=new Functions();
+                             ^
+  symbol:   class Functions
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:17: error: cannot find symbol
+        Map<String, ArrayList<dict_entry>> tree_map = myfunc.getTree_map();
+                              ^
+  symbol:   class dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:27: error: cannot find symbol
+                ArrayList<dict_entry> list=new ArrayList<dict_entry>();
+                          ^
+  symbol:   class dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:27: error: cannot find symbol
+                ArrayList<dict_entry> list=new ArrayList<dict_entry>();
+                                                         ^
+  symbol:   class dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:36: error: cannot find symbol
+                    JsonElement fileElement = JsonParser.parseReader(new FileReader(f));
+                    ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:36: error: cannot find symbol
+                    JsonElement fileElement = JsonParser.parseReader(new FileReader(f));
+                                              ^
+  symbol:   variable JsonParser
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:37: error: cannot find symbol
+                    JsonArray wordArray = fileElement.getAsJsonArray();
+                    ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:39: error: cannot find symbol
+                    for (JsonElement myword : wordArray) {
+                         ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:40: error: cannot find symbol
+                        dict_entry myentry=new dict_entry();
+                        ^
+  symbol:   class dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:40: error: cannot find symbol
+                        dict_entry myentry=new dict_entry();
+                                               ^
+  symbol:   class dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:41: error: cannot find symbol
+                        JsonObject wordJsonObject = myword.getAsJsonObject();
+                        ^
+  symbol:   class JsonObject
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:52: error: cannot find symbol
+                        JsonArray singularArray = wordJsonObject.get("singular").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:53: error: cannot find symbol
+                        for (JsonElement singularword : singularArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:59: error: cannot find symbol
+                        JsonArray pluralArray = wordJsonObject.get("plural").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:60: error: cannot find symbol
+                        for (JsonElement pluralword : pluralArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:66: error: cannot find symbol
+                        JsonArray definitionArray = wordJsonObject.get("definitions").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:67: error: cannot find symbol
+                        for (JsonElement definition : definitionArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:69: error: cannot find symbol
+                            JsonObject definitionJsonObject = definition.getAsJsonObject();
+                            ^
+  symbol:   class JsonObject
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:74: error: cannot find symbol
+                            Definition def=new Definition();
+                            ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:74: error: cannot find symbol
+                            Definition def=new Definition();
+                                               ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:78: error: cannot find symbol
+                                JsonArray textArray = definitionJsonObject.get("text").getAsJsonArray();
+                                ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:79: error: cannot find symbol
+                                for (JsonElement myphrase : textArray) {
+                                     ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:98: error: cannot find symbol
+    Word new_word=new Word();
+    ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:98: error: cannot find symbol
+    Word new_word=new Word();
+                      ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:106: error: cannot find symbol
+    Word new_word1=new Word();
+    ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:106: error: cannot find symbol
+    Word new_word1=new Word();
+                       ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:122: error: cannot find symbol
+    Definition new_definition=new Definition();
+    ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:122: error: cannot find symbol
+    Definition new_definition=new Definition();
+                                  ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:132: error: cannot find symbol
+    Definition new_definition1=new Definition();
+    ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:132: error: cannot find symbol
+    Definition new_definition1=new Definition();
+                                   ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:142: error: cannot find symbol
+    Definition new_definition2=new Definition();
+    ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:142: error: cannot find symbol
+    Definition new_definition2=new Definition();
+                                   ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:172: error: cannot find symbol
+    ArrayList<Definition>mydefinitions=myfunc.getDefinitionsForWord("câine","ro");
+              ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:173: error: cannot find symbol
+    for(Definition def:mydefinitions)
+        ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:176: error: cannot find symbol
+    ArrayList<Definition>mydefinitions1=myfunc.getDefinitionsForWord("chat","fr");
+              ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:177: error: cannot find symbol
+    for(Definition def:mydefinitions1)
+        ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag 'pe'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag '2\src'
+import com.google.gson.JsonArray;
+^
+47 errors
+2023.03.10 22:16:30 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java
+2023.03.10 22:16:31 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/Tema2.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: package com.google.gson does not exist
+import com.google.gson.JsonArray;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:2: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:3: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:4: error: package com.google.gson does not exist
+import com.google.gson.JsonParser;
+                      ^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:16: error: cannot find symbol
+        Functions myfunc=new Functions();
+        ^
+  symbol:   class Functions
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:16: error: cannot find symbol
+        Functions myfunc=new Functions();
+                             ^
+  symbol:   class Functions
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:17: error: cannot find symbol
+        Map<String, ArrayList<Dict_entry>> tree_map = myfunc.getTree_map();
+                              ^
+  symbol:   class Dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:27: error: cannot find symbol
+                ArrayList<Dict_entry> list=new ArrayList<Dict_entry>();
+                          ^
+  symbol:   class Dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:27: error: cannot find symbol
+                ArrayList<Dict_entry> list=new ArrayList<Dict_entry>();
+                                                         ^
+  symbol:   class Dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:36: error: cannot find symbol
+                    JsonElement fileElement = JsonParser.parseReader(new FileReader(f));
+                    ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:36: error: cannot find symbol
+                    JsonElement fileElement = JsonParser.parseReader(new FileReader(f));
+                                              ^
+  symbol:   variable JsonParser
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:37: error: cannot find symbol
+                    JsonArray wordArray = fileElement.getAsJsonArray();
+                    ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:39: error: cannot find symbol
+                    for (JsonElement myword : wordArray) {
+                         ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:40: error: cannot find symbol
+                        Dict_entry myentry=new Dict_entry();
+                        ^
+  symbol:   class Dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:40: error: cannot find symbol
+                        Dict_entry myentry=new Dict_entry();
+                                               ^
+  symbol:   class Dict_entry
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:41: error: cannot find symbol
+                        JsonObject wordJsonObject = myword.getAsJsonObject();
+                        ^
+  symbol:   class JsonObject
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:52: error: cannot find symbol
+                        JsonArray singularArray = wordJsonObject.get("singular").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:53: error: cannot find symbol
+                        for (JsonElement singularword : singularArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:59: error: cannot find symbol
+                        JsonArray pluralArray = wordJsonObject.get("plural").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:60: error: cannot find symbol
+                        for (JsonElement pluralword : pluralArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:66: error: cannot find symbol
+                        JsonArray definitionArray = wordJsonObject.get("definitions").getAsJsonArray();
+                        ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:67: error: cannot find symbol
+                        for (JsonElement definition : definitionArray) {
+                             ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:69: error: cannot find symbol
+                            JsonObject definitionJsonObject = definition.getAsJsonObject();
+                            ^
+  symbol:   class JsonObject
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:74: error: cannot find symbol
+                            Definition def=new Definition();
+                            ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:74: error: cannot find symbol
+                            Definition def=new Definition();
+                                               ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:78: error: cannot find symbol
+                                JsonArray textArray = definitionJsonObject.get("text").getAsJsonArray();
+                                ^
+  symbol:   class JsonArray
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:79: error: cannot find symbol
+                                for (JsonElement myphrase : textArray) {
+                                     ^
+  symbol:   class JsonElement
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:98: error: cannot find symbol
+    Word new_word=new Word();
+    ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:98: error: cannot find symbol
+    Word new_word=new Word();
+                      ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:106: error: cannot find symbol
+    Word new_word1=new Word();
+    ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:106: error: cannot find symbol
+    Word new_word1=new Word();
+                       ^
+  symbol:   class Word
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:122: error: cannot find symbol
+    Definition new_definition=new Definition();
+    ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:122: error: cannot find symbol
+    Definition new_definition=new Definition();
+                                  ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:132: error: cannot find symbol
+    Definition new_definition1=new Definition();
+    ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:132: error: cannot find symbol
+    Definition new_definition1=new Definition();
+                                   ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:142: error: cannot find symbol
+    Definition new_definition2=new Definition();
+    ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:142: error: cannot find symbol
+    Definition new_definition2=new Definition();
+                                   ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:172: error: cannot find symbol
+    ArrayList<Definition>mydefinitions=myfunc.getDefinitionsForWord("câine","ro");
+              ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:173: error: cannot find symbol
+    for(Definition def:mydefinitions)
+        ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:176: error: cannot find symbol
+    ArrayList<Definition>mydefinitions1=myfunc.getDefinitionsForWord("chat","fr");
+              ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:177: error: cannot find symbol
+    for(Definition def:mydefinitions1)
+        ^
+  symbol:   class Definition
+  location: class Tema2
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag 'pe'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import com.google.gson.JsonArray;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Tema2.java:1: error: semanticdb-javac: unknown flag '2\src'
+import com.google.gson.JsonArray;
+^
+47 errors
+2023.03.10 22:17:14 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java
+2023.03.10 22:17:15 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/Definition.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java:1: error: semanticdb-javac: unknown flag 'pe'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Definition.java:1: error: semanticdb-javac: unknown flag '2\src'
+import java.util.ArrayList;
+^
+6 errors
+2023.03.10 22:17:25 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java
+2023.03.10 22:17:25 WARN  Running javac-semanticdb failed for file:///D:/Anul%202/Semestrul%201/Programare%20orientata%20pe%20obiecte/Teme/Tema%202/src/Word.java. Output:
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java:1: error: semanticdb-javac: unknown flag '2\Semestrul'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java:1: error: semanticdb-javac: unknown flag '1\Programare'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java:1: error: semanticdb-javac: unknown flag 'orientata'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java:1: error: semanticdb-javac: unknown flag 'pe'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java:1: error: semanticdb-javac: unknown flag 'obiecte\Teme\Tema'
+import java.util.ArrayList;
+^
+D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java:1: error: semanticdb-javac: unknown flag '2\src'
+import java.util.ArrayList;
+^
+6 errors
+2023.03.10 22:17:26 WARN  no build target for: D:\Anul 2\Semestrul 1\Programare orientata pe obiecte\Teme\Tema 2\src\Word.java
+2023.03.10 22:17:27 INFO  Shutting down server
+2023.03.10 22:17:27 INFO  shutting down Metals
+2023.03.10 22:17:27 INFO  Exiting server
